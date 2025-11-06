@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Team 7 – Obesity Analysis
 
 ## Content
@@ -67,10 +66,3 @@ The dataset contains the following variables for individuals:
 ```bash
 git clone https://github.com/NnekaAsuzu/Obesity.git
 
-=======
-Purpose & Overview
-Goals & Objectives
-Techniques & Technologies
-Key Findings & Instructions
-Visuals & Credits
->>>>>>> ecab571d5aa6b64a661acdf61e815ef10b520dc3
