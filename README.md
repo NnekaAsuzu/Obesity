@@ -1,12 +1,16 @@
-# Team 7 – Obesity Analysis
+# Team 7 – Obesity Visualization Project
+**Team Members:** Nneka Asuzu, Ruchira Malhotra  
+**Repository:** [GitHub Link](https://github.com/NnekaAsuzu/Obesity)  
+
+---
 
 ## Content
 
-- [Team 7 – Obesity Analysis](#team-7--obesity-analysis)
+- [Team 7 – Obesity Visualization Project](#team-7--obesity-visualization-project)
   - [Content](#content)
   - [Purpose \& Overview](#purpose--overview)
   - [Goals \& Objectives](#goals--objectives)
-  - [Techniques \& Technologies](#techniques--technologies)
+  - [Techniques \& Tools](#techniques--tools)
   - [Project Plan \& Instructions](#project-plan--instructions)
     - [Steps for Team Members After Cloning:](#steps-for-team-members-after-cloning)
 
@@ -14,47 +18,48 @@
 
 ## Purpose & Overview
 
-This project focuses on predicting obesity levels based on eating habits and physical conditions. Our goal is to identify the key factors that contribute to obesity and provide actionable insights for public health or wellness programs.
+This project focuses on **exploring and visualizing obesity trends** based on eating habits, physical activity, and demographic factors. Our goal is to uncover patterns that contribute to different obesity levels and communicate insights through **clear, data-driven visualizations**.
 
-**Business Problem:**  
-We aim to advise public health professionals and wellness program designers on which eating habits and physical features are most predictive of obesity, enabling targeted interventions and lifestyle recommendations.
+**Business Question:**  
+What relationships exist between lifestyle habits, demographic factors, and obesity levels, and how can visualizations help uncover meaningful patterns in this population?
 
 **Dataset:**  
-The dataset contains the following variables for individuals:
-
-- Age
-- Gender
-- Height
-- Weight
-- BMI
-- Eating habits (e.g., fast food consumption, fruit/vegetable intake)
-- Physical activity level
-- Water consumption
-- Smoking habits
-- Other lifestyle factors
-- Target: Obesity level (e.g., Insufficient, Normal, Overweight, Obesity Type I/II/III)
+UCI Obesity Dataset – "Estimation of Obesity Levels Based On Eating Habits and Physical Condition."  
+Variables include:
+- Age, Gender, Height, Weight, BMI
+- Eating habits (e.g., fast food, fruit/vegetable intake)
+- Physical activity, water consumption, smoking habits
+- Target: Obesity Level (Insufficient, Normal, Overweight, Obesity Type I/II/III)
 
 ---
 
 ## Goals & Objectives
 
-- Predict obesity levels using ML models  
-- Identify the most significant predictors of obesity  
-- Create a data story with visualizations  
-- Provide actionable recommendations for health and wellness interventions
+- Explore distributions of numeric and categorical variables  
+- Visualize relationships between lifestyle factors and obesity levels  
+- Detect outliers and inconsistencies in the dataset  
+- Create a **reproducible, insight-driven visualization report**  
+- Communicate findings for public health and wellness interventions
 
 ---
 
-## Techniques & Technologies
+## Techniques & Tools
 
 - **Languages & Tools:** Python 3, VS Code, Jupyter Notebooks  
-- **Libraries:** pandas, numpy, matplotlib, seaborn, scikit-learn, XGBoost  
-- **Planned Preprocessing:**  
-  - Encode categorical variables  
-  - Scale numeric variables  
-  - Handle missing values  
-- **Planned Models:** Logistic Regression, Random Forest, XGBoost  
-- **Evaluation Metrics:** Accuracy, Precision, Recall, F1-score, Confusion Matrix  
+- **Libraries:** pandas, numpy, matplotlib, seaborn, plotly (optional), scipy  
+- **Preprocessing Steps:**  
+  - Standardize categorical variables  
+  - Ensure numeric variables have correct datatypes  
+  - Handle missing values (if any)  
+  - Remove duplicates  
+- **Visualization Techniques:**  
+  - Countplots for categorical variables and target distribution  
+  - Histograms & KDE plots for numeric features  
+  - Boxplots & Violinplots for feature comparison by obesity level  
+  - FacetGrids for multi-category comparisons  
+  - Correlation Heatmaps for numeric variables  
+  - Pairplots for selected numeric features  
+- **Purpose:** Create reproducible, insightful, and presentation-ready visualizations of obesity trends
 
 ---
 
@@ -65,4 +70,3 @@ The dataset contains the following variables for individuals:
 1. Clone the repository:
 ```bash
 git clone https://github.com/NnekaAsuzu/Obesity.git
-
