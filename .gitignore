@@ -1,0 +1,11 @@
+# Ignore raw data files but keep the folder placeholder
+# Ignore raw data files but keep the folder placeholder
+data/raw/*
+!data/raw/.gitkeep
+
+# Common large file types to ignore
+*.csv
+*.xlsx
+*.zip
+*.tar
+*.gz
