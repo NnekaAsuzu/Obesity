@@ -1,0 +1,11 @@
+# Project Requirements for Obesity Analysis
+# Generated from the Step 1: Setup & Imports section of the notebook
+
+pandas>=2.1.0
+numpy>=1.26.0
+matplotlib>=3.8.0
+seaborn>=0.13.0
+
+
+
+
