@@ -17,7 +17,7 @@
     - [Inclusivity \& Diversity](#inclusivity--diversity)
   - [Techniques \& Tools](#techniques--tools)
   - [Project Workflow \& Status](#project-workflow--status)
-  - [Project Folder Structure](#project-folder-structure)
+  - [📂 Project Folder Structure](#-project-folder-structure)
   - [Team Members \& Roles](#team-members--roles)
   - [Timeline \& Milestones](#timeline--milestones)
   - [Team Agreements](#team-agreements)
@@ -118,22 +118,34 @@ Our goal is to uncover meaningful patterns contributing to different obesity lev
 
 ---
 
-## Project Folder Structure
+
+## 📂 Project Folder Structure
+
+This visual map shows the layout and purpose of each directory and file in the project repository.
+
+```text
 
 Obesity_Project/
-├── data/
-│ ├── raw/ # Original dataset
-│ └── processed/ # Cleaned, deduplicated data
-├── notebooks/ # Jupyter notebooks
-│ └── obesity_analysis.ipynb
-├── visuals/ # Saved plots (PNG/JPEG)
-├── docs/ # Documentation & data dictionary
-├── reports/ # Presentation slides
-├── README.md
-├── requirements.txt
-└── .gitignore
+│
+├── 📁 data/
+│   ├── 📂 raw/                 # Original, untouched dataset file
+│   └── 📂 processed/           # Cleaned, deduplicated, and engineered data
+│
+├── 📁 notebooks/               # All Jupyter notebooks
+│   └── 📄 obesity_analysis.ipynb  # Main analysis notebook
+│
+├── 📁 visuals/                 # Final, saved versions of all charts (PNGs/JPEGs)
+│
+├── 📁 docs/                    # Documentation, Data Dictionary, Appendix
+│   └── 📄 data_dictionary.md   # Feature descriptions & coding
+│
+├── 📁 reports/                 # Final presentation slides or PDF reports
+│
+├── 📄 README.md                # The project entry point and documentation
+├── 📄 requirements.txt         # List of all Python libraries needed
+└── 🚫 .gitignore               # Files Git should ignore
 
----
+```
 
 ## Team Members & Roles
 
