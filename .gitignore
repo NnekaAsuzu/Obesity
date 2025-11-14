@@ -1,0 +1,20 @@
+# ------------------
+# Standard Python/Notebook Files
+# ------------------
+__pycache__/
+*.pyc
+*.ipynb_checkpoints  # Jupyter notebook temporary files
+.venv/               # Virtual environments
+
+# ------------------
+# Data & Outputs (DO NOT COMMIT LARGE FILES)
+# ------------------
+data/raw/ObesityDataSet_raw_and_data_sinthetic.csv  # Ignore the specific raw data file
+data/processed/*.csv  # Ignore all processed data
+reports/figures/     # Ignore generated images/plots
+
+# ------------------
+# Operating System Files
+# ------------------
+.DS_Store             # Mac OS X
+Thumbs.db             # Windows
