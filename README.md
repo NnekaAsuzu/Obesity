@@ -254,10 +254,12 @@ Based on our EDA findings, Team 7 recommends the following next steps for furthe
 
 ## Video Reflection
 
-- Nneka’s Reflection Video  
-- Ruchira’s Reflection Video  
+- [Nneka’s Reflection Video](https://www.youtube.com/watch?v=kH4jbCsob5c) – Discusses project overview, key insights, challenges (including synthetic data limitations), cross-validation of patterns, and team contributions.  
+- [Ruchira’s Reflection Video](#) – (Link to be added)  
 
 ---
+
+
 
 ## Reproducibility Note
 
