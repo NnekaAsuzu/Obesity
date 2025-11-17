@@ -151,9 +151,6 @@ Obesity_project/
 ├── 📁 docs/                    # Documentation, Data Dictionary, Appendix
 │   └── 📄 data_dictionary.md   # Feature descriptions & coding
 │
-├── 📁 reports/                 # Presentation slides or PDF reports
-│   └── 📄 Team7_Obesity_Visualization_Presentation.pptx
-│
 ├── 📄 README.md                # Complete documentation with workflow, insights, and ethical considerations
 ├── 📄 requirements.txt         # List of all Python libraries needed
 └── 🚫 .gitignore               # Files Git should ignore
